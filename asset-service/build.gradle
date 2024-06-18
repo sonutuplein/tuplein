@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.code.prosol'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':metadata-service')
+}
+
+springBoot {
+    mainClass = 'com.code.ProsolApplication'
+}
+
+jar {
+    enabled = true
+}
+
+bootJar {
+    enabled = false
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'tuplein'
+include 'asset-service', 'metadata-service'
+
