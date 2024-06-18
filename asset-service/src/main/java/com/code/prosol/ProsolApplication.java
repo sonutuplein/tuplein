@@ -1,6 +1,7 @@
 package com.code.prosol;
 
 
+import com.code.prosol.controller.HelloController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
