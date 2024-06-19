@@ -1,7 +1,7 @@
 package com.code.prosol.controller;
 
 import com.code.prosol.service.MetaDataService;
-import com.code.prosol.service.MetaDataServiceImpl;
+import com.code.prosol.service.impl.MetaDataServiceImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

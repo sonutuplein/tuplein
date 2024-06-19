@@ -1,3 +1,7 @@
 rootProject.name = 'tuplein'
-include 'asset-service', 'metadata-service'
+include 'asset-service'
+include 'metadata-service'
+include 'common'
+//include your module here
+include 'prosol'
 

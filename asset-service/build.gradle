@@ -1,6 +1,4 @@
 plugins {
-    id 'org.springframework.boot' version '3.3.0'
-    id 'io.spring.dependency-management'
     id 'java'
 }
 
@@ -13,23 +11,14 @@ repositories {
 
 dependencies {
     implementation project(':metadata-service')
+    implementation project(':common')
     implementation 'org.springframework.boot:spring-boot-starter-web'
-
-}
-
-
-springBoot {
-    mainClass = 'com.code.prosol.ProsolApplication'
-}
-
-
-bootJar {
-    enabled = true
-    archiveFileName = 'asset-service.jar'
-
 }
 
 jar {
     enabled = true
-    archiveFileName = 'asset-service-plain.jar'
+}
+
+bootJar{
+    enabled = false
 }
